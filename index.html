@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alisher Romankul — CS student, ML &amp; web builder</title>
+  <meta name="description" content="First-year Computer Science student at CityU. I build ML and web products, from model to deployed app. Open to internships and startup roles.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alisher Romankul — CS student, ML & web builder">
+  <meta property="og:description" content="First-year CS @ CityU. I build ML and web products, from model to deployed app.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="mark" href="#top" aria-label="Alisher Romankul, back to top">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">
+      <circle cx="9" cy="22" r="3.2" fill="currentColor"/>
+      <circle cx="16" cy="8" r="3.2" fill="var(--accent)"/>
+      <circle cx="24" cy="21" r="3.2" fill="currentColor"/>
+      <path d="M9 22 16 8l8 13z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".5"/>
+    </svg>
+    <span>AR</span>
+  </a>
+  <nav aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#practice">Practice</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Introduction">
+    <canvas id="field" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <p class="status"><span class="pulse"></span>Open to internships &amp; startup roles · Hong Kong</p>
+      <h1>
+        <span class="l1">Alisher</span>
+        <span class="l2">Romankul</span>
+      </h1>
+      <p class="lede">First-year CS student at CityU. I build <em>ML and web products</em>, from the model to the deployed app.</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <span class="scroll-cue" aria-hidden="true">scroll ↓</span>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="label">01 — Selected work</p>
+        <h2>Things I've <em>built</em> and shipped.</h2>
+      </header>
+
+      <div class="rows">
+
+        <article class="row reveal">
+          <span class="num">01</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/claritydx" target="_blank" rel="noopener">ClarityDX</a></h3>
+            <p>AI-assisted medical diagnostics platform: blood-cell classification, lung CT screening, skin condition detection, symptom triage and automated report parsing.</p>
+            <ul class="tags"><li>Python</li><li>Django</li><li>Deep learning</li><li>Docker</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span><a href="https://youtu.be/e7lqUNRr8Vo" target="_blank" rel="noopener">Demo video</a></div>
+          <canvas class="thumb" data-kind="cells" data-seed="11" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">02</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/urban-syrix" target="_blank" rel="noopener">Urban Syrix</a></h3>
+            <p>Smart-city platform I co-founded: residents report incidents on a live map, YOLOv8 detects fires and accidents in images and video, and routes avoid active accident zones. I built the entire backend and its integrations with third-party platforms.</p>
+            <ul class="tags"><li>Flutter</li><li>FastAPI</li><li>Supabase</li><li>YOLOv8</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span><a href="https://urbansyr-frontend.politewave-c26ab3bd.germanywestcentral.azurecontainerapps.io" target="_blank" rel="noopener">Live</a><a href="https://youtu.be/G3gJxva1JoM" target="_blank" rel="noopener">Demo video</a></div>
+          <canvas class="thumb" data-kind="city" data-seed="29" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">03</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/crowdless" target="_blank" rel="noopener">Crowdless</a></h3>
+            <p>Computer-vision passenger counting for a dense bus-doorway queue: a head detector trained on real annotated footage, plus a tracker built for occlusion. 0.97 event F1 on a held-out test set, an order of magnitude fewer count errors than body-detector baselines.</p>
+            <ul class="tags"><li>Python</li><li>YOLO</li><li>FastAPI</li><li>React</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span></div>
+          <canvas class="thumb" data-kind="crowd" data-seed="47" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">04</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/smart-scroll" target="_blank" rel="noopener">SmartScroll</a></h3>
+            <p>Study tool that turns the endless YouTube and Reddit feed into AI summaries, generated quizzes, notes and a video room for group study. I inherited a rough prototype, then audited it, fixed the broken proxy and quiz grading, removed leaked API keys, and containerized and deployed it on Azure.</p>
+            <ul class="tags"><li>JavaScript</li><li>LLM APIs</li><li>Docker</li><li>Cloud</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span><a href="https://smartscroll-app.germanywestcentral.azurecontainer.io" target="_blank" rel="noopener">Live</a><a href="https://youtu.be/Zl6iXgb3fuk" target="_blank" rel="noopener">Demo video</a></div>
+          <canvas class="thumb" data-kind="feed" data-seed="23" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">05</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/MyCanvas" target="_blank" rel="noopener">MyCanvas</a></h3>
+            <p>A minimalist read-only dashboard over the CityU Canvas API: upcoming work, a full-semester schedule and grading breakdowns. Zero dependencies, no build step, no data leaves your machine.</p>
+            <ul class="tags"><li>JavaScript</li><li>REST API</li><li>Azure</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span></div>
+          <canvas class="thumb" data-kind="calendar" data-seed="41" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">06</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/nasaspace-app" target="_blank" rel="noopener">NASA TEMPO Air Quality</a></h3>
+            <p>Real-time air quality monitor built on NASA TEMPO satellite data, ground measurements and weather. Live updates, forecasts, city ranking and historical data.</p>
+            <ul class="tags"><li>Node.js</li><li>Express</li><li>Socket.IO</li><li>Redis</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span><a href="https://nasaspace-app-tmpalish.azurewebsites.net" target="_blank" rel="noopener">Live</a></div>
+          <canvas class="thumb" data-kind="waves" data-seed="37" aria-hidden="true"></canvas>
+        </article>
+
+        <article class="row reveal">
+          <span class="num">07</span>
+          <div class="body">
+            <h3><a class="stretch" href="https://github.com/Alishnis/connect_four" target="_blank" rel="noopener">NeonGrid</a></h3>
+            <p>Online Connect Four with a cyberpunk look, an AI coach and a ranking system. Play the computer, or a friend through a shared link.</p>
+            <ul class="tags"><li>TypeScript</li><li>Game logic</li><li>Vercel</li></ul>
+          </div>
+          <div class="links"><span class="arrow">↗</span><a href="https://connect-four-zeta-eight.vercel.app/" target="_blank" rel="noopener">Live</a></div>
+          <canvas class="thumb" data-kind="connect4" data-seed="79" aria-hidden="true"></canvas>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRACTICE -->
+  <section class="section" id="practice">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="label">02 — Practice</p>
+        <h2>Problem solving, <em>layer</em> by layer.</h2>
+      </header>
+
+      <div class="practice reveal">
+        <div class="stat">
+          <p class="big"><span data-count="229">229</span></p>
+          <p class="cap">problems solved on <a href="https://leetcode.com/u/alishnis/" target="_blank" rel="noopener">LeetCode</a></p>
+        </div>
+
+        <figure class="profile" id="profile">
+          <div class="plot">
+            <ol class="axis mono" aria-hidden="true">
+              <li style="--n:0">0</li>
+              <li style="--n:50">50</li>
+              <li style="--n:100">100</li>
+              <li style="--n:150">150</li>
+              <li style="--n:200">200</li>
+              <li style="--n:229">229</li>
+            </ol>
+            <div class="terrain" role="img" aria-label="Elevation profile of 229 solved LeetCode problems: 51 easy, 149 medium and 29 hard, shown as three stacked terrain bands sized by count">
+              <svg id="profile-svg" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true" focusable="false"></svg>
+              <span class="tag t-easy mono"><b>Easy</b> · 51</span>
+              <span class="tag t-medium mono"><b>Medium</b> · 149</span>
+              <span class="tag t-hard mono"><b>Hard</b> · 29</span>
+            </div>
+          </div>
+          <figcaption class="mono">Cross-section of solved problems, stacked by difficulty. Band thickness = problems solved.</figcaption>
+        </figure>
+      </div>
+
+      <dl class="stack reveal">
+        <div><dt>Languages</dt><dd>Python · JavaScript · TypeScript · Dart</dd></div>
+        <div><dt>Backend &amp; infra</dt><dd>Django · FastAPI · Node.js / Express · Supabase · Redis · Socket.IO · Flutter · Docker · Azure · Vercel</dd></div>
+        <div><dt>ML &amp; data</dt><dd>Deep learning for vision · YOLO · DBSCAN clustering · LLM APIs · Jupyter</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <p class="label">03 — About</p>
+        <h2>I learn by <em>shipping</em>.</h2>
+      </header>
+
+      <div class="about reveal">
+        <div class="about-text">
+          <p>I'm a first-year Computer Science student at CityU. So far I've co-founded a smart-city platform and built its backend, trained a head detector that counts passengers in crowded doorways, and shipped a live air-quality monitor on NASA satellite data.</p>
+          <p>I like startup-sized problems: an unclear spec, real users, fast iteration. I'm especially drawn to machine learning that has to hold up on messy, real-world data.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Studying</dt><dd>Computer Science, Year 1, City University of Hong Kong</dd></div>
+          <div><dt>Focus</dt><dd>ML on real-world data · full-stack products</dd></div>
+          <div><dt>Hackathons</dt><dd>Infomatrix 2025 · Smart City 2025 · Mastercard Decentrathon</dd></div>
+          <div><dt>Looking for</dt><dd>Internships &amp; startup roles</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <p class="label reveal">04 — Contact</p>
+      <h2 class="reveal">Let's build something <em>together</em>.</h2>
+
+      <a class="mail reveal" href="mailto:romankulalisher@icloud.com">romankulalisher@icloud.com</a>
+
+      <ul class="socials reveal">
+        <li><a href="https://github.com/Alishnis" target="_blank" rel="noopener">GitHub <span>↗</span></a></li>
+        <li><a href="https://leetcode.com/u/alishnis/" target="_blank" rel="noopener">LeetCode <span>↗</span></a></li>
+        <li><a href="https://www.linkedin.com/in/alisher-romankul-8b9035336" target="_blank" rel="noopener">LinkedIn <span>↗</span></a></li>
+        <!-- TODO: add a résumé link once you have a PDF, e.g. <li><a href="resume.pdf">Résumé</a></li> -->
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>© 2026 Alisher Romankul</span>
+    <span>Hand-written HTML, CSS &amp; JS. No frameworks.</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
