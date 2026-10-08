@@ -83,4 +83,4 @@ Written by Alisher Romankul (sole committer in git history). TODO(owner): note w
 
 ## License
 
-No license file is present. TODO(owner): confirm and add a license (e.g. MIT) if you want others to reuse the code.
+[MIT](LICENSE)
