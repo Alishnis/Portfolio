@@ -1,2 +1,21 @@
-.claude/
+# macOS
 .DS_Store
+
+# Local tooling / editor config
+.claude/
+settings.local.json
+.vscode/
+.idea/
+
+# Secrets (none are used by this static site; kept out defensively)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output (none today; for future tooling)
+node_modules/
+dist/
+build/
+*.log
